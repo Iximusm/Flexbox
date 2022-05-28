@@ -1,0 +1,32 @@
+h2 {
+    color:rgb(4, 0, 255);
+    background-color: #f30c9a;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hashtagWrapper {
+    display: flex;
+    margin-top: 4px;
+}
+
+.column {
+    flex: 10%;
+    max-width: 100%;
+}
+
+.item {
+   flex: 0 2 content;
+   display: block;
+   margin: 4px;
+}
+
+.hashtag {
+    padding: 6px;
+    border-radius: 4px;
+    background-color: #dcf30c;
+}
